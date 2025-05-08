@@ -137,7 +137,7 @@ We welcome contributions! To contribute:
 1. Fork the repository.
 2. Create a feature branch:
    ```bash
-   git checkout -b feature/your-feature
+   git checkout -b feature/Android-QR-Code-Reader
    ```
 3. Make your changes and commit:
    ```bash
@@ -145,7 +145,7 @@ We welcome contributions! To contribute:
    ```
 4. Push to your fork:
    ```bash
-   git push origin feature/your-feature
+   git push origin feature/Android-QR-Code-Reader
    ```
 5. Open a pull request on GitHub.
 
