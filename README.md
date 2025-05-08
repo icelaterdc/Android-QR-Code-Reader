@@ -27,34 +27,34 @@ The project is contained within the `app/` directory and follows a modular archi
 
 ```
 app/
-â”œâ”€â”€ MainActivity.kt             # Entry point of the app
-â”œâ”€â”€ QRCodeApp.kt                # Hilt-enabled Application class
-â”œâ”€â”€ AndroidManifest.xml         # App manifest
-â”œâ”€â”€ build.gradle                # Module-level build configuration
-â”œâ”€â”€ data/                       # Data models and Room database
-â”‚   â”œâ”€â”€ HistoryItem.kt
-â”‚   â”œâ”€â”€ AppDatabase.kt
-â”‚   â””â”€â”€ HistoryDao.kt
-â”œâ”€â”€ ui/                         # UI components (Compose screens)
-â”‚   â”œâ”€â”€ ScanScreen.kt
-â”‚   â”œâ”€â”€ GenerateScreen.kt
-â”‚   â”œâ”€â”€ HistoryScreen.kt
-â”‚   â”œâ”€â”€ FavoritesScreen.kt
-â”‚   â””â”€â”€ SettingsScreen.kt
-â”œâ”€â”€ util/                       # Utility functions
-â”‚   â””â”€â”€ QRCodeUtil.kt
-â”œâ”€â”€ viewmodel/                  # ViewModels for business logic
-â”‚   â””â”€â”€ QRViewModel.kt
-â””â”€â”€ res/                        # Resources (icons, strings, themes)
-    â”œâ”€â”€ drawable/
-    â”‚   â””â”€â”€ ic_launcher_background.xml
-    â”œâ”€â”€ mipmap/
-    â”‚   â”œâ”€â”€ ic_launcher.png
-    â”‚   â””â”€â”€ ic_launcher_round.png
-    â””â”€â”€ values/
-        â”œâ”€â”€ colors.xml
-        â”œâ”€â”€ strings.xml
-        â””â”€â”€ themes.xml
+├── MainActivity.kt             # Entry point of the app
+├── QRCodeApp.kt                # Hilt-enabled Application class
+├── AndroidManifest.xml         # App manifest
+├── build.gradle                # Module-level build configuration
+├── data/                       # Data models and Room database
+│   ├── HistoryItem.kt
+│   ├── AppDatabase.kt
+│   └── HistoryDao.kt
+├── ui/                         # UI components (Compose screens)
+│   ├── ScanScreen.kt
+│   ├── GenerateScreen.kt
+│   ├── HistoryScreen.kt
+│   ├── FavoritesScreen.kt
+│   └── SettingsScreen.kt
+├── util/                       # Utility functions
+│   └── QRCodeUtil.kt
+├── viewmodel/                  # ViewModels for business logic
+│   └── QRViewModel.kt
+└── res/                        # Resources (icons, strings, themes)
+    ├── drawable/
+    │   └── ic_launcher_background.xml
+    ├── mipmap/
+    │   ├── ic_launcher.png
+    │   └── ic_launcher_round.png
+    └── values/
+        ├── colors.xml
+        ├── strings.xml
+        └── themes.xml
 ```
 
 ## Prerequisites
