@@ -43,7 +43,8 @@ android {
 
     sourceSets {
         main {
-            java.srcDirs = ['src/main/java', 'src/main/kotlin', '../']
+            java.srcDirs = ['data', 'ui', 'util', 'viewmodel', '../']
+            manifest.srcFile 'AndroidManifest.xml'
         }
     }
 }
