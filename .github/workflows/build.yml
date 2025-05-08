@@ -16,7 +16,7 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
       - name: Grant execute permission for gradlew
-        run: chmod +x ./app/gradlew
+        run: chmod +x ./app
       - name: Build with Gradle
         run: ./app/gradlew assembleDebug
       - name: Copy APK to root directory
